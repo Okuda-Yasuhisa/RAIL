@@ -1,0 +1,9 @@
+[package]
+name = "rail_nvidia"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rail_nacro = {path = "../rail_nacro"}
+rail_lib = {path = "../../rail_common/rail_lib"}
+cross = {workspace = true}
